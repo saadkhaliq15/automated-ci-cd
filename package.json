@@ -1,0 +1,24 @@
+{
+  "name": "automated-ci-cd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadkhaliq15/automated-ci-cd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadkhaliq15/automated-ci-cd/issues"
+  },
+  "homepage": "https://github.com/saadkhaliq15/automated-ci-cd#readme",
+  "description": ""
+}
