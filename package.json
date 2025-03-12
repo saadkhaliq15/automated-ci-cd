@@ -1,24 +1,19 @@
 {
-  "name": "automated-ci-cd",
+  "name": "ci-cd",
   "version": "1.0.0",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/saadkhaliq15/automated-ci-cd.git"
+    "test": "npx jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/saadkhaliq15/automated-ci-cd/issues"
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
   },
-  "homepage": "https://github.com/saadkhaliq15/automated-ci-cd#readme",
-  "description": ""
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
 }
