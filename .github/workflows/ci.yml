@@ -22,7 +22,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Fix Jest permissions
         run: chmod +x node_modules/.bin/jest
